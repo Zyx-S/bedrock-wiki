@@ -119,7 +119,9 @@ Removes the current block and replaces it with the defined block in the same pos
 ```jsonc
 {
 	"example:place_block": {
-		"set_block": "minecraft:grass"
+		"set_block": {
+			"block_type":"minecraft:grass"
+		}
 	}
 }
 ```
